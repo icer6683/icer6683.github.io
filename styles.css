@@ -188,7 +188,7 @@ h2 {
   letter-spacing: 0;
   margin: 52px 0 20px;
   padding-top: 18px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h3 {
@@ -227,6 +227,21 @@ p {
 
 .entry .meta {
   color: var(--muted);
+}
+
+.entry .authors {
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.entry .contribution {
+  color: var(--quiet);
+  font-size: 0.84rem;
+  font-style: italic;
+}
+
+.projects-section h2 {
+  margin-bottom: 0;
 }
 
 .entry .venue {
