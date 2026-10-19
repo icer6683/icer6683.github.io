@@ -7,7 +7,7 @@
   --line: #dde4df;
   --link: #8b3039;
   --link-hover: #612129;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 * {
@@ -65,15 +65,32 @@ a:focus-visible {
   justify-content: space-between;
   min-height: 58px;
   gap: 18px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: inherit;
   font-size: 14px;
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   color: var(--ink);
-  font-weight: 650;
+  font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.brand-mark {
+  display: inline-grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  flex: 0 0 24px;
+  border-radius: 50%;
+  background: var(--link);
+  color: var(--bg);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .nav-links {
@@ -248,7 +265,7 @@ p {
 
 .entry .venue {
   color: var(--quiet);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: inherit;
   font-size: 0.91rem;
 }
 
@@ -260,7 +277,7 @@ p {
 
 .entry-number {
   color: var(--quiet) !important;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: inherit;
   font-size: 0.78rem;
   line-height: 1.8;
 }
@@ -268,7 +285,7 @@ p {
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--quiet);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: inherit;
   font-size: 13px;
   padding: 22px 0 36px;
 }
