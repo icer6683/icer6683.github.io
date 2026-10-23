@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  --bg: #fefeff;
+  --bg: #fafcff;
   --ink: #3d3f45;
   --muted: #676a71;
   --quiet: #80838a;
@@ -42,7 +42,7 @@ a:focus-visible {
 }
 
 .site-header {
-  background: rgba(254, 254, 255, 0.94);
+  background: rgba(250, 252, 255, 0.94);
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
