@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --bg: #fbfbf8;
-  --ink: #17211d;
-  --muted: #5f6a64;
-  --quiet: #7b8580;
-  --line: #dde4df;
-  --link: #8b3039;
-  --link-hover: #612129;
+  --bg: #fefeff;
+  --ink: #3d3f45;
+  --muted: #676a71;
+  --quiet: #80838a;
+  --line: #e5e6e9;
+  --link: #173b68;
+  --link-hover: #0d2744;
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
@@ -20,9 +20,7 @@ html {
 
 body {
   margin: 0;
-  background:
-    linear-gradient(180deg, rgba(37, 107, 115, 0.06), transparent 260px),
-    var(--bg);
+  background: var(--bg);
   color: var(--ink);
   font-size: 17px;
   line-height: 1.6;
@@ -31,7 +29,7 @@ body {
 
 a {
   color: var(--link);
-  text-decoration-color: #d3adb1;
+  text-decoration-color: #9bacc0;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
   transition: color 160ms ease, text-decoration-color 160ms ease;
@@ -44,7 +42,7 @@ a:focus-visible {
 }
 
 .site-header {
-  background: rgba(251, 251, 248, 0.88);
+  background: rgba(254, 254, 255, 0.94);
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
@@ -80,17 +78,10 @@ a:focus-visible {
 }
 
 .brand-mark {
-  display: inline-grid;
+  display: block;
   width: 24px;
   height: 24px;
-  place-items: center;
   flex: 0 0 24px;
-  border-radius: 50%;
-  background: var(--link);
-  color: var(--bg);
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 1;
 }
 
 .nav-links {
