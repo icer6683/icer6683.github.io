@@ -1,13 +1,13 @@
 :root {
   color-scheme: light;
-  --bg: #fafcff;
+  --bg: #fdfeff;
   --ink: #3d3f45;
   --muted: #676a71;
   --quiet: #80838a;
   --line: #e5e6e9;
   --link: #173b68;
   --link-hover: #0d2744;
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -42,7 +42,7 @@ a:focus-visible {
 }
 
 .site-header {
-  background: rgba(250, 252, 255, 0.94);
+  background: rgba(253, 254, 255, 0.94);
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
@@ -68,20 +68,11 @@ a:focus-visible {
 }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
+  display: inline-block;
   color: var(--ink);
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
-}
-
-.brand-mark {
-  display: block;
-  width: 24px;
-  height: 24px;
-  flex: 0 0 24px;
 }
 
 .nav-links {
